@@ -1,0 +1,24 @@
+body h2 button {
+  position: absolute;
+  top: 91%;
+  left: 90.5%;
+  display: block;
+  color: white;
+
+  float: left;
+  font-size: 15px;
+
+  background:#FF597B;
+  width: 120PX;
+  height: 50px;
+  border-radius: 10px;
+  border: 5px solid #FF597B;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+}
+
+body h2 button:hover {
+  background: #263159 ;
+  border: 3px solid #263159;
+}

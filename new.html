@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width-device-width, initial-scale-1.0">
+
+        <title>NEW</title>
+        <link rel="stylesheet" type="text/css" href="CSS/nw3.css">
+    </head>
+
+    <body>
+
+        <div class="box_form">
+
+            <h1>
+                Crea tu página con <strong class="mk">MARKDOWN</strong>
+            </h1>
+
+            <form action="./cgi-bin/new.pl" method="get">
+                <label class="nm" for="name"><strong>Nombre</strong></label>
+                <input class = "ipt" type="text" name="name" placeholder="Nombra tu página..."/><br />
+                <label class="nm" for="markdown"><strong>Contenido</strong></label>
+                <textarea name="markdown" rows="10" class="input-text" placeholder="Escribe el contenido de tu página..."></textarea><br>
+                <input class="boton" type="submit" value="CREAR" />
+              </form>
+              <form action="./cgi-bin/list.pl" method="get">
+                <input class="boton" type="submit" value="VOLVER" />
+             </form>
+        </div>
+
+        <div class="Figuras">
+            <!-- 00 - 50 -->
+            <div class="cd"></div>
+            <div class="cd"></div>
+            <div class="cd"></div>
+            <div class="cd"></div>
+            <div class="cd"></div>
+            <div class="cd"></div>
+            <div class="cd"></div>
+
+            <!-- 50 - 100 -->
+            <div class="cd"></div>
+            <div class="cd"></div>
+            <div class="cd"></div>
+        </div>
+    </body>
+</html>
